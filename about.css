@@ -1,0 +1,962 @@
+/* =====================================================
+   SWARGARATH ABOUT PAGE
+===================================================== */
+
+
+/* =====================================================
+   ABOUT HERO
+===================================================== */
+/* =====================================================
+   SOCIAL MEDIA - TOP BAR
+===================================================== */
+
+.top-social {
+
+    display: inline-flex;
+
+    align-items: center;
+
+    gap: 7px;
+
+    margin-left: 5px;
+
+}
+
+
+.top-social a {
+
+    width: 26px;
+
+    height: 26px;
+
+    display: inline-flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    color: #ffffff;
+
+    border: 1px solid rgba(255, 255, 255, 0.35);
+
+    border-radius: 50%;
+
+    text-decoration: none;
+
+    transition: all 0.3s ease;
+
+}
+
+
+.top-social a:hover {
+
+    background: var(--green);
+
+    border-color: var(--green);
+
+    color: #ffffff;
+
+    transform: translateY(-2px);
+
+}
+
+
+.top-social a i {
+
+    margin-right: 0;
+
+    color: inherit;
+
+    font-size: 12px;
+
+}
+
+
+.about-hero {
+
+    min-height: 320px;
+
+    background:
+        url("Images/banner image 1.jpeg")
+        center center / cover no-repeat;
+
+    position: relative;
+
+    display: flex;
+
+    align-items: center;
+
+}
+
+
+.about-hero-overlay {
+
+    position: absolute;
+
+    inset: 0;
+
+    background:
+        linear-gradient(
+            90deg,
+            rgba(0, 48, 31, 0.94) 0%,
+            rgba(0, 55, 35, 0.72) 55%,
+            rgba(0, 0, 0, 0.15) 100%
+        );
+
+}
+
+
+.about-hero-content {
+
+    position: relative;
+
+    z-index: 2;
+
+    text-align: center;
+
+    color: #fff;
+
+    padding: 75px 0;
+
+}
+
+
+.page-label {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 9px;
+
+    color: #b8d94d;
+
+    font-size: 11px;
+
+    font-weight: 600;
+
+    letter-spacing: 1px;
+
+    margin-bottom: 10px;
+
+}
+
+
+.page-label span {
+
+    width: 28px;
+
+    height: 1px;
+
+    background: #b8d94d;
+
+}
+
+
+.about-hero h1 {
+
+    font-family: 'Playfair Display', serif;
+
+    font-size: 48px;
+
+    font-weight: 700;
+
+    margin: 0 0 8px;
+
+}
+
+
+.about-hero p {
+
+    color: #fff;
+
+    font-size: 14px;
+
+    margin: 0 auto 16px;
+
+}
+
+
+.breadcrumb-wrap {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 9px;
+
+    font-size: 11px;
+
+}
+
+
+.breadcrumb-wrap a {
+
+    color: #b8d94d;
+
+}
+
+
+.breadcrumb-wrap span {
+
+    color: #fff;
+
+}
+
+
+.breadcrumb-wrap i {
+
+    color: #dce9df;
+
+}
+
+
+
+/* =====================================================
+   ABOUT INTRO
+===================================================== */
+
+.about-intro {
+
+    background: #fff;
+
+}
+
+
+.about-main-image {
+
+    position: relative;
+
+    padding-right: 35px;
+
+}
+
+
+.about-main-image img {
+
+    width: 100%;
+
+    height: 390px;
+
+    object-fit: cover;
+
+    border-radius: 6px;
+
+    box-shadow:
+        0 12px 35px rgba(0, 0, 0, 0.12);
+
+}
+
+
+.image-badge {
+
+    position: absolute;
+
+    right: 8px;
+
+    bottom: 25px;
+
+    background: #fff;
+
+    padding: 15px 18px;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 11px;
+
+    border-left: 4px solid var(--green);
+
+    box-shadow:
+        0 7px 25px rgba(0, 0, 0, 0.13);
+
+}
+
+
+.image-badge > i {
+
+    width: 40px;
+
+    height: 40px;
+
+    border-radius: 50%;
+
+    background: var(--green);
+
+    color: #fff;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    font-size: 17px;
+
+}
+
+
+.image-badge strong,
+.image-badge span {
+
+    display: block;
+
+}
+
+
+.image-badge strong {
+
+    color: var(--dark-green);
+
+    font-size: 12px;
+
+}
+
+
+.image-badge span {
+
+    color: #777;
+
+    font-size: 10px;
+
+    margin-top: 2px;
+
+}
+
+
+.about-intro-content {
+
+    padding-left: 25px;
+
+}
+
+
+.about-label {
+
+    justify-content: flex-start;
+
+}
+
+
+.about-intro-content h2,
+.location-content h2 {
+
+    font-family: 'Playfair Display', serif;
+
+    color: var(--dark-green);
+
+    font-size: 34px;
+
+    line-height: 1.2;
+
+    margin: 6px 0 17px;
+
+}
+
+
+.about-intro-content p {
+
+    font-size: 13px;
+
+    margin-bottom: 11px;
+
+}
+
+
+.about-call-btn {
+
+    display: inline-flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+    margin-top: 10px;
+
+    padding: 10px 19px;
+
+    border-radius: 25px;
+
+    background: var(--green);
+
+    color: #fff;
+
+    font-size: 12px;
+
+    font-weight: 600;
+
+}
+
+
+.about-call-btn:hover {
+
+    color: #fff;
+
+    background: var(--dark-green);
+
+}
+
+
+.about-call-btn > i {
+
+    font-size: 20px;
+
+}
+
+
+.about-call-btn span {
+
+    line-height: 1.25;
+
+}
+
+
+.about-call-btn small {
+
+    display: block;
+
+    font-size: 10px;
+
+    font-weight: 400;
+
+}
+
+
+
+/* =====================================================
+   OUR APPROACH
+===================================================== */
+
+.approach-section {
+
+    background: #f3faf4;
+
+}
+
+
+.section-title p {
+
+    max-width: 650px;
+
+    margin: 7px auto 0;
+
+    font-size: 12px;
+
+}
+
+
+.approach-card {
+
+    height: 100%;
+
+    background: #fff;
+
+    text-align: center;
+
+    padding: 30px 24px;
+
+    border-radius: 7px;
+
+    box-shadow:
+        0 4px 18px rgba(0, 0, 0, 0.06);
+
+    border-bottom: 3px solid transparent;
+
+    transition: 0.3s ease;
+
+}
+
+
+.approach-card:hover {
+
+    transform: translateY(-5px);
+
+    border-bottom-color: var(--green);
+
+}
+
+
+.approach-icon {
+
+    width: 62px;
+
+    height: 62px;
+
+    margin: 0 auto 15px;
+
+    border: 2px solid #7eae91;
+
+    border-radius: 50%;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    color: var(--dark-green);
+
+    font-size: 24px;
+
+}
+
+
+.approach-card h4 {
+
+    font-family: 'Playfair Display', serif;
+
+    color: var(--dark-green);
+
+    font-size: 18px;
+
+    margin-bottom: 8px;
+
+}
+
+
+.approach-card p {
+
+    font-size: 11px;
+
+    margin: 0;
+
+}
+
+
+
+/* =====================================================
+   SERVICES
+===================================================== */
+
+.about-services {
+
+    background: #fff;
+
+}
+.provide-row{
+    row-gap: 15px;
+}
+
+.about-service-item {
+
+    height: 100%;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 13px;
+
+    position: relative;
+
+    padding: 20px 18px 20px 45px;
+
+    margin-bottom: 25px;
+
+    background: #f5faf6;
+
+    border: 1px solid #dbe9df;
+
+    border-radius: 6px;
+
+    transition: 0.3s ease;
+
+}
+
+
+.about-service-item:hover {
+
+    transform: translateY(-3px);
+
+    box-shadow:
+        0 8px 22px rgba(0, 0, 0, 0.07);
+
+}
+
+
+.service-number {
+
+    position: absolute;
+
+    left: 13px;
+
+    top: 10px;
+
+    font-size: 9px;
+
+    color: #9ab8a4;
+
+    font-weight: 700;
+
+}
+
+
+.about-service-icon {
+
+    flex: 0 0 42px;
+
+    height: 42px;
+
+    border-radius: 50%;
+
+    background: var(--green);
+
+    color: #fff;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    font-size: 17px;
+
+}
+
+
+.about-service-item h4 {
+
+    font-family: 'Playfair Display', serif;
+
+    color: var(--dark-green);
+
+    font-size: 16px;
+
+    margin: 0 0 4px;
+
+}
+
+
+.about-service-item p {
+
+    font-size: 10px;
+
+    line-height: 1.55;
+
+    margin: 0;
+
+}
+
+
+
+/* =====================================================
+   SERVICE LOCATION
+===================================================== */
+
+.about-location {
+
+    background: #f4faf5;
+
+}
+
+
+.location-image img {
+
+    width: 100%;
+
+    height: 350px;
+
+    object-fit: cover;
+
+    border-radius: 6px;
+
+}
+
+
+.location-content {
+
+    padding-left: 30px;
+
+}
+
+
+.location-content p {
+
+    font-size: 13px;
+
+    margin-bottom: 17px;
+
+}
+
+
+.location-points {
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 12px;
+
+}
+
+
+.location-point {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+    background: #fff;
+
+    padding: 12px;
+
+    border: 1px solid #dbe9df;
+
+    border-radius: 5px;
+
+}
+
+
+.location-point > i {
+
+    color: var(--green);
+
+    font-size: 19px;
+
+}
+
+
+.location-point h5 {
+
+    color: var(--dark-green);
+
+    font-size: 11px;
+
+    font-weight: 700;
+
+    margin: 0 0 2px;
+
+}
+
+
+.location-point p {
+
+    color: #777;
+
+    font-size: 9px;
+
+    margin: 0;
+
+}
+
+
+
+/* =====================================================
+   CTA
+===================================================== */
+
+.about-cta {
+
+    background: var(--dark-green);
+
+    padding: 25px 0;
+
+    color: #fff;
+
+}
+
+
+.about-cta-content {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 15px;
+
+}
+
+
+.cta-icon {
+
+    width: 52px;
+
+    height: 52px;
+
+    border: 1px solid #a8ce35;
+
+    border-radius: 50%;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+}
+
+
+.cta-icon i {
+
+    font-size: 22px;
+
+}
+
+
+.about-cta h3 {
+
+    font-family: 'Playfair Display', serif;
+
+    font-size: 21px;
+
+    margin: 0;
+
+}
+
+
+.about-cta p {
+
+    color: #fff;
+
+    font-size: 11px;
+
+    margin: 3px 0 0;
+
+}
+
+
+.about-cta-buttons {
+
+    display: flex;
+
+    justify-content: flex-end;
+
+    gap: 12px;
+
+}
+
+
+.about-cta-buttons a {
+
+    min-width: 145px;
+
+    display: inline-flex;
+
+    align-items: center;
+
+    gap: 9px;
+
+    padding: 9px 16px;
+
+    border-radius: 25px;
+
+    color: #fff;
+
+    border: 1px solid #a8ce35;
+
+}
+
+
+.about-cta-buttons a:hover {
+
+    color: #fff;
+
+}
+
+
+.about-cta-buttons .cta-call {
+
+    background: #72ad24;
+
+    border-color: #72ad24;
+
+}
+
+
+.about-cta-buttons i {
+
+    font-size: 21px;
+
+}
+
+
+.about-cta-buttons span {
+
+    font-size: 10px;
+
+    font-weight: 600;
+
+}
+
+
+.about-cta-buttons small {
+
+    display: block;
+
+    font-size: 9px;
+
+    font-weight: 400;
+
+}
+
+
+
+/* =====================================================
+   SOCIAL MEDIA - FOOTER
+===================================================== */
+
+.footer-social {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 9px;
+
+    margin-top: 17px;
+
+}
+
+
+.footer-social a {
+
+    width: 36px;
+
+    height: 36px;
+
+    display: inline-flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    color: #ffffff;
+
+    border: 1px solid rgba(255, 255, 255, 0.35);
+
+    border-radius: 50%;
+
+    text-decoration: none;
+
+    transition: all 0.3s ease;
+
+}
+
+
+.footer-social a:hover {
+
+    background: var(--green);
+
+    border-color: var(--green);
+
+    color: #ffffff;
+
+    transform: translateY(-3px);
+
+}
+
+
+.footer-social a i {
+
+    color: inherit;
+
+    font-size: 15px;
+
+}
